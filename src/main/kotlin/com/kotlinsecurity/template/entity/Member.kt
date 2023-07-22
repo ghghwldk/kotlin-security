@@ -10,7 +10,7 @@ data class Member(
         @Column(name = "member_id")
         var id: Long? = null,
 
-        var email: String? = null,
+        var email: String,
 
         var password: String? = null,
 
